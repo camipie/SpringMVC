@@ -6,10 +6,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Sergio Agámez Blog</title>
-    <link href="<c:url value="/resources/css/estilos.css" />" rel="stylesheet">
-    <!-- link rel="stylesheet" type="text/css" href="/spring-mvc-example/WebContent/css/estilos.css"><link-->
-  	
+    <title>La Historia del Videojuego</title>
+    <link href="<c:url value="/resources/css/estilos.css" />" rel="stylesheet">	
   </head>
   <body>
 
@@ -36,8 +34,8 @@
 
       <div class="titulo-blog">
         <div class="contenedor">
-          <h1><a href="#">Sergio Agámez Blog</a></h1>
-          <p class="subtitulo">UN BLOG PARA INSPIRAR LA CREATIVIDAD Y PASIÓN EN LO QUE HACES</p>
+          <h1><a href="#">La Historia del Videojuego</a></h1>
+          <p class="subtitulo">DESDE ATARI HASTA HOY</p>
         </div>
       </div>
 
@@ -45,19 +43,15 @@
         <div class="contenedor">
           <ul>
             <li><a href="#">INICIO</a></li>
-            <li><a href="#">DESTACADOS</a></li>
-            <li><a href="#">VIAJES</a></li>
-            <li><a href="#">COMIDAS</a></li>
-            <li><a href="#">HOTELES</a></li>
-            <li><a href="#">LUGARES EXÓTICOS</a></li>
-            <li><a href="#">FAUNA</a></li>
-            <li><a href="#">FLORA</a></li>
+            <li><a href="#">PONG1</a></li>
+            <li><a href="#">PONG2</a></li>
+            <li><a href="#">PONG3</a></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="main">
+<!-- ><div class="main">
       <div class="banner">
         <div class="contenedor">
           <div class="banner-principal">
@@ -65,10 +59,11 @@
           </div>
         </div>
       </div>
-
+<-->
       <div class="blog">
         <div class="contenedor">
           <div class="articulos-blog">
+          
             <div class="articulo">
               <p class="fecha-articulo">Enero 17 de 2017</p>
               <h3 class="titulo-articulo">5 Tips para organizar mejor tus viajes</h3>
@@ -83,21 +78,6 @@
               </div>
             </div>
 
-            <div class="articulo">
-              <p class="fecha-articulo">Marzo 3 de 2017</p>
-              <h3 class="titulo-articulo">Descubriendo hoteles en grandes ciudades</h3>
-              <p class="categoria-articulo">HOTELES</p>
-              <img src="img/imagen-articulo-2.jpg" alt="">
-              <div class="texto-articulo">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="boton">
-                <a href="#">Seguir leyendo</a>
-              </div>
-            </div>
-          </div>
-
           <div class="aside">
             <div class="widget">
               <div class="autor-widget">
@@ -105,25 +85,13 @@
                   <img src="img/foto.jpg" alt="Foto del autor">
                 </div>
                 <div class="datos-autor">
-                  <h3 class="nombre">Sergio Agámez</h3>
-                  <p class="profesion">Desarrollador Web</p>
+                  <h3 class="nombre">Autores</h3>
+                  <p class="profesion">Gerónimo Le Lan, Camila Pieroni</p>
                   <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
                 </div>
               </div>
             </div>
 
-            <div class="widget">
-              <div class="destacados-widget">
-                <h3 class="titulo-destacados">Destacados</h3>
-                <ul>
-                  <li><a href="#">Lorem ipsum dolor</a></li>
-                  <li><a href="#">Ut enim ad minim veniam</a></li>
-                  <li><a href="#">Duis aute irure dolor in</a></li>
-                  <li><a href="#">Duis aute irure</a></li>
-                  <li><a href="#">Excepteur sint occaecat cupidatat non proident</a></li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>
