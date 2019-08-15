@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<input type="submit" name="action" value="save"/>
 <h1> Test de variable controlador</h1>
 <p>Esto es una variable desde TestControlador : ${variable}</p>
 </body>
