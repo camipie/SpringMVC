@@ -51,8 +51,8 @@
       </div>
     </div>
 
-<!-- ><div class="main">
-      <div class="banner">
+	<div class="main">
+<!--  -->      <div class="banner">
         <div class="contenedor">
           <div class="banner-principal">
             <img src="img/banner-principal.jpeg" alt="">
