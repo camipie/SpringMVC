@@ -1,4 +1,4 @@
-package com.journaldev.spring.controller;
+package com.proyecto.spring.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
