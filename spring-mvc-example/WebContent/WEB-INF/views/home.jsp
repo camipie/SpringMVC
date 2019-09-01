@@ -10,7 +10,6 @@
     <link href="<c:url value="/resources/css/estilos.css" />" rel="stylesheet">	
   </head>
   <body>
-
     <div class="header">
       <div class="top-header">
         <div class="contenedor">
@@ -41,9 +40,9 @@
       <div class="menu-principal">
         <div class="contenedor">
           <ul>
-            <li><a href="#">APTITUDES</a></li>
-            <li><a href="#">EXPERIENCIA</a></li>
-            <li><a href="#">HOBBIES</a></li>
+            <li><a href="home">APTITUDES</a></li>
+            <li><a href="#">EXPERIENCIA (to do)</a></li>
+            <li><a href ="referencias">REFERENCIAS</a></li>
           </ul>
         </div>
       </div>
@@ -55,7 +54,7 @@
         <div class="contenedor">
           <div class="articulos-blog">
             <div class="articulo">
-              <p class="fecha-articulo">Enero 17 de 2017</p>
+              <p class="fecha-articulo"></p>
               <h3 class="titulo-articulo">Mis aptitudes</h3>
               <p class="categoria-articulo"></p>
               <img src="" alt="">
@@ -81,19 +80,6 @@
               </div>
             </div>
 
-            <div class="widget">
-              <div class="destacados-widget">
-                <h3 class="titulo-destacados">Referencias</h3>
-                    <form action="/html/tags/html_form_tag_action.cfm" method="post">
-                        <div>
-                            <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
-                            Hey... say something!
-                            </textarea>
-                        </div>
-                    <input type="submit" value="Submit">
-                    </form>
-              </div>
-            </div>
           </div>
         </div>
       </div>
