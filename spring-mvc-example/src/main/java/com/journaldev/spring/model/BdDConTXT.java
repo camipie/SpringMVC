@@ -7,38 +7,39 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Comentario {
-	private String titulo;
-	private String texto;
+public class BdDConTXT implements BaseDeDatosDeComentarios {
 
-	public String getTexto() {
-		return texto;
-	}
 
-	public String getTitulo() {
-		return titulo;
-	}
-	public void LeerComentarios(){
+	@Override
+	public String leerComentarios(){
+		String comentario="";
 		try {
 			BufferedReader br;
 			FileReader fr = new FileReader("Comentarios.txt");
 			br = new BufferedReader(fr);
-			String cadena;
-			int lineaCambio = -1;
-			String[] Comentarios = new String[5];
+			String cadena = br.readLine();
+		//	int lineaCambio = -1;
+		//	String[] Comentarios = new String[5];
+			
+			while (cadena != null) {
+				comentario += cadena + "\n"; 
+				cadena = br.readLine();
+			}
 			
 		//	for (int i = 0; i < 5; i++) {
-				cadena = br.readLine();
+				//Comentario = br.readLine();
+				
+				
 				//Comentarios[i] = cadena;
-				if (lineaCambio == -1) {
-					int j = 2;
-					while (cadena.charAt(j - 1) != ' ')
-						j++;
-					String valorCad = cadena.substring(j);
-					int valor = Integer.parseInt(valorCad);
+				//if (lineaCambio == -1) {
+					//int j = 2;
+					//while (cadena.charAt(j - 1) != ' ')
+					//	j++;
+					//String valorCad = cadena.substring(j);
+					//int valor = Integer.parseInt(valorCad);
 					//if (valor < gui.getPuntaje())
 						//lineaCambio = i;
-				}
+			//	}
 			//}
 			br.close();
 			
@@ -50,9 +51,11 @@ public class Comentario {
 			System.out.println("Error al leer el archivo de High Scores.");
 			exc.printStackTrace();
 		}
+		return comentario;
 	}
 	
-		public void agregarComentario (String Comentario) {
+		public void agregarComntario(String c) {
+			
 			try {
 				File logFile = new File("Comentarios.txt");
 				BufferedWriter bw;
@@ -63,7 +66,7 @@ public class Comentario {
 					
 			//	}
 				//gui.getNombrePersonaje().getText() + " " + gui.getPuntaje()
-				bw.write(texto);
+				bw.write(c);
 				bw.newLine();
 			//	for (int j = lineaCambio + 1; j < 5; j++) {
 				//	bw.newLine();
@@ -77,6 +80,10 @@ public class Comentario {
 				exc.printStackTrace();
 			}
 		}
-	
+
+
+		
+		
+
 
 }
