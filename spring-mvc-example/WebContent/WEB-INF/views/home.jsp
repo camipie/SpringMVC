@@ -15,7 +15,7 @@
         <div class="contenedor">
           <div class="top-menu">
             <ul>
-              <li><a href="#">ACERCA DE LOS CREADORES DE CV ONLINE</a></li>
+              <li><a href="about">ACERCA DE LOS CREADORES DE CV ONLINE</a></li>
               <li><a href="#">CONTACTAR A LOS CREADORES</a></li>
             </ul>
           </div>

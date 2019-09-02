@@ -17,7 +17,7 @@
         <div class="contenedor">
           <div class="top-menu">
             <ul>
-              <li><a href="#">ACERCA DE LOS CREADORES DE CV ONLINE</a></li>
+              <li><a href="about">ACERCA DE LOS CREADORES DE CV ONLINE</a></li>
               <li><a href="#">CONTACTAR A LOS CREADORES</a></li>
             </ul>
           </div>
@@ -63,15 +63,6 @@
               <div class="texto-articulo">
               <div class="fb-comments" data-href="http://localhost:8080/spring-mvc-test8/referencias" data-width="100%" data-numposts="5"></div>
                <!-- https://developers.facebook.com/docs/plugins/comments#configurator -->
-               
-                <!-- form action="/html/tags/html_form_tag_action.cfm" method="post">
-                        <div>
-                            <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
-                            Hey... say something!
-                            </textarea>
-                        </div>
-                    <input type="submit" value="Submit">
-                    </form-->
               </div>
             </div>
 
@@ -86,7 +77,16 @@
                 <div class="datos-autor">
                   <h3 class="nombre">Bowser</h3>
                   <p class="profesion">Típico villano</p>
-                  <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
+                  <h5>Situación actual: </h5>
+                   <form action="/html/tags/html_form_tag_action.cfm" method="post">
+                        <div>
+                            <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+                            Ingrese su situación actual
+                            </textarea>
+                        </div>
+                    <input type="submit" value="Cambiar">
+                    </form>
+               		
                 </div>
               </div>
             </div>

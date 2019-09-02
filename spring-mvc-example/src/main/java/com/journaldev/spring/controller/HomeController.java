@@ -31,4 +31,9 @@ public class HomeController {
 		return "home"; //retorna la vista home desde otra página que no sea home
 	}
 	
+	@RequestMapping(value = "/about", method = {RequestMethod.GET, RequestMethod.PUT})
+	public String about(Model model) {
+		return "about"; //retorna la vista about
+	}
+	
 }
