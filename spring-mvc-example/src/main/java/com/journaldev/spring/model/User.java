@@ -1,4 +1,4 @@
-package com.proyecto.spring.model;
+package com.journaldev.spring.model;
 
 public class User {
 	private String userName;

@@ -1,4 +1,4 @@
-package com.proyecto.spring.model;
+package com.journaldev.spring.model;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
