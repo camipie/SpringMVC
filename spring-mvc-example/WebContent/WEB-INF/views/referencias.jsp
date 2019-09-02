@@ -10,6 +10,8 @@
     <link href="<c:url value="/resources/css/estilos.css" />" rel="stylesheet">	
   </head>
    <body>
+   <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0"></script>
     <div class="header">
       <div class="top-header">
         <div class="contenedor">
@@ -59,14 +61,15 @@
               <p class="categoria-articulo"></p>
               <img src="" alt="">
               <div class="texto-articulo">
-                <form action="/html/tags/html_form_tag_action.cfm" method="post">
+              <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="5"></div>
+                <!-- form action="/html/tags/html_form_tag_action.cfm" method="post">
                         <div>
                             <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
                             Hey... say something!
                             </textarea>
                         </div>
                     <input type="submit" value="Submit">
-                    </form>
+                    </form-->
               </div>
             </div>
 
