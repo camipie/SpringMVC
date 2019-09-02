@@ -61,7 +61,9 @@
               <p class="categoria-articulo"></p>
               <img src="" alt="">
               <div class="texto-articulo">
-              <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="5"></div>
+              <div class="fb-comments" data-href="http://localhost:8080/spring-mvc-test8/referencias" data-width="100%" data-numposts="5"></div>
+               <!-- https://developers.facebook.com/docs/plugins/comments#configurator -->
+               
                 <!-- form action="/html/tags/html_form_tag_action.cfm" method="post">
                         <div>
                             <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
