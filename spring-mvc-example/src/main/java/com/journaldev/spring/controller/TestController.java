@@ -1,3 +1,4 @@
+
 package com.journaldev.spring.controller;
 
 import java.text.DateFormat;
@@ -9,27 +10,18 @@ import org.springframework.ui.Model;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+
+import com.proyecto.spring.model.BdDConTXT;
 
 @Controller
 public class TestController {
-
+	
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String test(Locale locale, Model model) {
-		String var="variable1233213";
+		BdDConTXT b=new	BdDConTXT();
+		//b.agregarComntario("hola loco");		
+		String var="aca deberia estar el contenido del archivo:"+b.leerComentarios();
 		model.addAttribute("variable",var);
 		return "test"; 
 	}
-	@RequestMapping(value="/save", method=RequestMethod.POST)
-	public String handlePost(@RequestParam String action){
-		System.out.println("apretaste el boton save");
-	    if( action.equals("save") ){
-	       //handle save
-	    }
-	    else if( action.equals("renew") ){
-	       //handle renew
-	    }
-		return action;
-
-	} 
 }

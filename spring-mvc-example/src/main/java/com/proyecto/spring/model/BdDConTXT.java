@@ -6,14 +6,35 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+    
+
 
 public class BdDConTXT implements BaseDeDatosDeComentarios {
-
+	File file;
+	public BdDConTXT() {
+        try {
+            String ruta = "C:\\Users\\gero\\Desktop\\filename.txt";
+           // String contenido = "Contenido de ejemplo";
+             file = new File(ruta);
+            // Si el archivo no existe es creado
+            if (!file.exists()) {
+                file.createNewFile();
+                String contenido ="Archivo nuevo";
+             //   bw.write(contenido);
+            }
+           // FileWriter fw = new FileWriter(file);
+            //BufferedWriter bw = new BufferedWriter(fw);
+            
+            //bw.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+	}
 	public String leerComentarios(){
 		String comentario="";
 		try {
 			BufferedReader br;
-			FileReader fr = new FileReader("Comentarios.txt");
+			FileReader fr = new FileReader(file);
 			br = new BufferedReader(fr);
 			String cadena = br.readLine();
 		//	int lineaCambio = -1;

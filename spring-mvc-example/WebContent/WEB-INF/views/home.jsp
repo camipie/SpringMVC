@@ -74,7 +74,7 @@
                 <div class="datos-autor">
                   <h3 class="nombre">Bowser</h3>
                   <p class="profesion">Típico villano</p>
-                  <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
+                  <p class="info">Bowser es un personaje de los videojuegos de Nintendo y principal antagonista en los juegos de Super Mario Bros. Es el archienemigo de Mario. Es el rey y el más poderoso de los Koopas, se le considera un antagonista debido a que Bowser ha intentado apoderarse del mundo de los champiñones en innumerables ocasiones y ha tratado de conquistar el Reino Champiñón desde su primera aparición en Super Mario Bros.</p>
                 </div>
               </div>
             </div>
