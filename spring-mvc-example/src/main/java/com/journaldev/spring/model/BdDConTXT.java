@@ -1,4 +1,4 @@
-package com.journaldev.spring.model;
+package com.proyecto.spring.model;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,8 +9,6 @@ import java.io.IOException;
 
 public class BdDConTXT implements BaseDeDatosDeComentarios {
 
-
-	@Override
 	public String leerComentarios(){
 		String comentario="";
 		try {
