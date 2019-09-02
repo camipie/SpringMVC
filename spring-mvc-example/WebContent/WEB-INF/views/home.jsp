@@ -19,7 +19,6 @@
               <li><a href="#">CONTACTAR A LOS CREADORES</a></li>
             </ul>
           </div>
-
           <div class="top-redes">
             <ul>
               <li><a href="#">Instagram</a></li>
