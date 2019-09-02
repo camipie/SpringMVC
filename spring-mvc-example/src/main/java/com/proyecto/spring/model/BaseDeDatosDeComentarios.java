@@ -1,8 +1,6 @@
-package com.journaldev.spring.model;
+package com.proyecto.spring.model;
 
 public interface BaseDeDatosDeComentarios {
 		public void agregarComntario(String c);
-		public String leerComentarios();
-	
-		
+		public String leerComentarios();		
 }
