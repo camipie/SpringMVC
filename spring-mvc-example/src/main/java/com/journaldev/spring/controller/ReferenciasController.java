@@ -35,7 +35,7 @@ public class ReferenciasController {
 	public String referencias(Locale locale, Model model) {
 		BdDConTXT b=new	BdDConTXT();
 		//b.agregarComntario("hola loco");	
-		String var="aca deberia estar el contenido del archivo:"+b.leerContenido();
+		String var=""+b.leerContenido();
 		model.addAttribute("variable",var);
 		return "test"; 
 	}

@@ -77,17 +77,8 @@
                 <div class="datos-autor">
                   <h3 class="nombre">Bowser</h3>
                   <p class="profesion">Típico villano</p>
-                  <h5>Situación actual: </h5>
-        			<p>ARCHIVO:${variable}</p>
-                   <form action="/html/tags/html_form_tag_action.cfm" method="post">
-                        <div>
-                            <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
-                            Ingrese su situación actual
-                            </textarea>
-                        </div>
-                    <input type="submit" value="Cambiar">
-                    </form>
-               		
+                  <h5 class = "nombre">Situación actual: </h5>
+        			<iframe src="http://localhost:8080/tdpf/test"></iframe>                		
                 </div>
               </div>
             </div>

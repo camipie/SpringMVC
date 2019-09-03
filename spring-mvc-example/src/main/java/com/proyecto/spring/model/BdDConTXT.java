@@ -13,7 +13,7 @@ public class BdDConTXT implements BaseDeDatosDeLectura {
 	File file;
 	public BdDConTXT() {
         try {
-            String ruta = "C:\\Users\\gero\\Desktop\\filename.txt";
+            String ruta = "C:\\Users\\Usuario\\Desktop\\filename.txt";
            // String contenido = "Contenido de ejemplo";
              file = new File(ruta);
             // Si el archivo no existe es creado
