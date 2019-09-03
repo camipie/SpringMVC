@@ -52,7 +52,7 @@
                   
                   
                   <h3 align="center">Gerónimo Le Lan Toussaint</h3>
-                  <p align="center">LU: </p>
+                  <p align="center">LU: 116753</p>
                   <h3 align="center">Camila Pieroni</h3>
                   <p align="center">LU: 113167</p>
 

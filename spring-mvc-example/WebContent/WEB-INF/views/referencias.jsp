@@ -61,7 +61,7 @@
               <p class="categoria-articulo"></p>
               <img src="" alt="">
               <div class="texto-articulo">
-              <div class="fb-comments" data-href="http://localhost:8080/spring-mvc-test8/referencias" data-width="100%" data-numposts="5"></div>
+              <div class="fb-comments" data-href="http://localhost:8080/spring-mvc-test1/referencias" data-width="100%" data-numposts="5"></div>
                <!-- https://developers.facebook.com/docs/plugins/comments#configurator -->
               </div>
             </div>
@@ -78,6 +78,7 @@
                   <h3 class="nombre">Bowser</h3>
                   <p class="profesion">Típico villano</p>
                   <h5>Situación actual: </h5>
+        			<p>ARCHIVO:${variable}</p>
                    <form action="/html/tags/html_form_tag_action.cfm" method="post">
                         <div>
                             <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">

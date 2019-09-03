@@ -9,7 +9,7 @@ import java.io.IOException;
     
 
 
-public class BdDConTXT implements BaseDeDatosDeComentarios {
+public class BdDConTXT implements BaseDeDatosDeLectura {
 	File file;
 	public BdDConTXT() {
         try {
@@ -30,7 +30,7 @@ public class BdDConTXT implements BaseDeDatosDeComentarios {
             e.printStackTrace();
         }
 	}
-	public String leerComentarios(){
+	public String leerContenido(){
 		String comentario="";
 		try {
 			BufferedReader br;
