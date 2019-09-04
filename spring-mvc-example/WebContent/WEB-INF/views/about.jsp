@@ -48,8 +48,6 @@
 
 
                   <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bde72cba-cb95-40e5-b132-370934c76a8d/daqlf7s-9b4ae9f7-e451-4ee1-932f-70252ff6f7b5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JkZTcyY2JhLWNiOTUtNDBlNS1iMTMyLTM3MDkzNGM3NmE4ZFwvZGFxbGY3cy05YjRhZTlmNy1lNDUxLTRlZTEtOTMyZi03MDI1MmZmNmY3YjUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zgVkdNiOzS4eUA5kIQkJnUBMTdNCe9W3i4547sUaNFU" alt="Foto del autor" width="300" align="right">
-
-                  
                   
                   <h3 align="center">Gerónimo Le Lan Toussaint</h3>
                   <p align="center">LU: 116753</p>
