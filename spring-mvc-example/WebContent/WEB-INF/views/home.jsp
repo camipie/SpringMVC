@@ -40,7 +40,7 @@
         <div class="contenedor">
           <ul>
             <li><a href="home">APTITUDES</a></li>
-            <li><a href="#">EXPERIENCIA (to do)</a></li>
+            <li><a href="#">EXPERIENCIA</a></li>
             <li><a href ="referencias">REFERENCIAS</a></li>
           </ul>
         </div>

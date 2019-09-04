@@ -43,7 +43,7 @@
         <div class="contenedor">
           <ul>
             <li><a href="home">APTITUDES</a></li>
-            <li><a href="#">EXPERIENCIA (to do)</a></li>
+            <li><a href="#">EXPERIENCIA</a></li>
             <li><a href ="referencias">REFERENCIAS</a></li>
           </ul>
         </div>
@@ -61,8 +61,7 @@
               <p class="categoria-articulo"></p>
               <img src="" alt="">
               <div class="texto-articulo">
-              <div class="fb-comments" data-href="http://localhost:8080/spring-mvc-test1/referencias" data-width="100%" data-numposts="5"></div>
-               <!-- https://developers.facebook.com/docs/plugins/comments#configurator -->
+              <div class="fb-comments" data-href="http://localhost:8080/finaltest/referencias" data-width="100%" data-numposts="5"></div>
               </div>
             </div>
 
@@ -78,7 +77,7 @@
                   <h3 class="nombre">Bowser</h3>
                   <p class="profesion">Típico villano</p>
                   <h5 class = "nombre">Situación actual: </h5>
-        			<iframe src="http://localhost:8080/tdpf/test"></iframe>                		
+        			<iframe src="http://localhost:8080/finaltest/test"></iframe>                		
                 </div>
               </div>
             </div>
