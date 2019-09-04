@@ -61,7 +61,7 @@
               <p class="categoria-articulo"></p>
               <img src="" alt="">
               <div class="texto-articulo">
-              <div class="fb-comments" data-href="http://localhost:8080/finaltest/referencias" data-width="100%" data-numposts="5"></div>
+              <div class="fb-comments" data-href="http://localhost:8080/finall/referencias" data-width="100%" data-numposts="5"></div>
               </div>
             </div>
 
@@ -77,7 +77,7 @@
                   <h3 class="nombre">Bowser</h3>
                   <p class="profesion">Típico villano</p>
                   <h5 class = "nombre">Situación actual: </h5>
-        			<iframe src="http://localhost:8080/finaltest/test"></iframe>                		
+        			<iframe src="http://localhost:8080/finall/test"></iframe>                		
                 </div>
               </div>
             </div>
